@@ -122,8 +122,8 @@ export const AppBar = () => {
         <div className="app-right app-bar-box">
           <UserActions />
           <CurrentUserBadge
-            showBalance={false}
-            showAddress={false}
+            showBalance={true}
+            showAddress={true}
             iconSize={24}
           />
         </div>
